@@ -1,0 +1,25 @@
+{
+  "name": "learn_ts",
+  "version": "1.0.0",
+  "description": "my repository for learning ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BambooSword/learn_ts.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "BambooSword",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BambooSword/learn_ts/issues"
+  },
+  "homepage": "https://github.com/BambooSword/learn_ts#readme",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
