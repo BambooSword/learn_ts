@@ -8,6 +8,17 @@ type Includes<T extends readonly any[], U> = T extends [
     : Includes<Rest, U>
   : false
 
+// type IsEqual<T, U> = (<Intern>() => Intern extends T ? true : false) extends <
+//   Intern
+// >() => Intern extends U ? true : false
+//   ? true
+//   : false
+
+// type Includes<T extends readonly any[], U> = T extends [infer F, ...infer R]
+//   ? IsEqual<F, U> extends true
+//     ? true
+//     : Includes<R, U>
+//   : false
 // extends 在ts中的三个用途
 // 1. 表示继承/ 拓展 -> Class
 
