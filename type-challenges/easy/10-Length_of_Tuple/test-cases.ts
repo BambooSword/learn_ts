@@ -1,4 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
+import { Length } from './template'
 
 const tesla = ['tesla', 'model 3', 'model X', 'model Y'] as const
 const spaceX = [
