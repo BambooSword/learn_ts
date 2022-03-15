@@ -11,3 +11,17 @@ type DeepReadonly1<T> = {
 }
 // infer 为 条件类型中的类型推断。
 // infer可以在extends的条件语句中推断待推断的类型
+
+// function pluck<T, K extends keyof T>(o: T, names: K[]): T[K][] {
+//   return names.map(n => o[n]);
+// }
+
+// interface Person {
+//     name: string;
+//     age: number;
+// }
+// let person: Person = {
+//     name: 'Jarid',
+//     age: 35
+// };
+// let strings: (string | number)[] = pluck(person, ['name', 'age']); // ok, string[]
