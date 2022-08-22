@@ -1,4 +1,4 @@
-type MyPick<T, K extends keyof T> = {
+export type MyPick<T, K extends keyof T> = {
   [V in K]: T[V]
 }
 
